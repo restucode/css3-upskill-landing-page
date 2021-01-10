@@ -108,9 +108,9 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  /*width: 100%;*/
   z-index: 9999;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: white;
   -webkit-transition: .3s;
   -o-transition: .3s;
@@ -1358,7 +1358,8 @@ body {
     .hero-right img {
       width: 100%;
       height: 520px;
-      /*object-fit: cover;*/
+      object-fit: contain;
+      z-index: 2
     }
     .featured {
       margin: 50px 0;

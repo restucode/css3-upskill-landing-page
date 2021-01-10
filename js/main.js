@@ -53,5 +53,3 @@ clickLink.forEach(link => {
  })
 })
 
-
-AOS.init();
